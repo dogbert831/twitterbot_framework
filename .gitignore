@@ -52,3 +52,5 @@ target/
 .idea/
 .DS_Store
 secrets.py
+DonaldBotNot.log
+results.txt
