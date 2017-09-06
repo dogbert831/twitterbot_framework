@@ -2,8 +2,6 @@
 __pycache__/
 *.py[cod]
 
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -46,12 +44,6 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
 
 # PyBuilder
 target/
