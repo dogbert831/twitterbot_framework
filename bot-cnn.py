@@ -22,7 +22,6 @@ import os
 import tweepy
 from secrets import *
 from time import gmtime, strftime
-import guardian_content
 import random
 
 # ====== Individual bot configuration ==========================
