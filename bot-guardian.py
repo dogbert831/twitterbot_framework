@@ -22,4 +22,5 @@ def create_tweet():
     #print(text)
     return text
 
-bot.tweet(text)
+string = create_tweet()
+bot.tweet(string)

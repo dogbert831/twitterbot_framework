@@ -24,8 +24,10 @@ def create_tweet(url):
     # Replace this with your code!
     tweet = "Trump" + rtweet
     text = tweet + " " + url
-    #print(text)
+    print(text)
     return text
 
-bot.tweet(text)
+string = create_tweet(url)
+print("text is ", string)
+bot.tweet(string)
 
