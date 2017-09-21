@@ -2,8 +2,6 @@
 import newspaper
 
 #to disable caching memoize_articles=False
-f = open('results.txt', 'w')
-cnn_paper = newspaper.build('http://cnn.com', memoize_articles=True) 
+cnn_paper = newspaper.build('http://cnn.com', memoize_articles=True)
 for article in cnn_paper.articles:
     print(article.url, file=open("results.txt", "a"))
-

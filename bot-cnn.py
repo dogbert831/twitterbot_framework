@@ -10,7 +10,7 @@ bot_username = 'DonaldBotNot'
 logfile_name = bot_username + ".log"
 
 # ==============================================================
-tweets = [" does it again.", " is unraveling at the seams.", " has no clue does he?", " continues to run off at the mouth.", " seems to be confused.", " flips out again."]
+tweets = [" does it again.", " is unraveling at the seams.", " has no clue does he?", " continues to run off at the mouth.", " is a real tool.", " flips out again."]
 rtweet = random.choice(tweets)
 with open("results.txt") as f:
     for line in f:

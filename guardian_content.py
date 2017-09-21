@@ -3,7 +3,7 @@ import json
 import random
 
 def scrape_guardian():
-	list = ["racists", "tweets", "crowd", "best", "obama", "collusion", "lies"]
+	list = ["racists", "tweets", "staff", "lawyer", "best", "russia" "collusion", "lies"]
 	search = random.choice(list)
 	r = requests.get('http://content.guardianapis.com/search?section=us-news&q=trump%20' + search + '&api-key=7d26c29d-abde-4b33-84cf-7dce688e48c5')
 	results = r.json()
