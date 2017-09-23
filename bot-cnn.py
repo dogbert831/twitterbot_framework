@@ -22,7 +22,7 @@ with open("results.txt") as f:
 def create_tweet(url):
     """Create the text of the tweet you want to send."""
     # Replace this with your code!
-    tweet = "Trump" + rtweet
+    tweet = "#Dotard" + rtweet
     text = tweet + " " + url
     print(text)
     return text
