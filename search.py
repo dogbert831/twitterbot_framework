@@ -7,8 +7,8 @@ auth.set_access_token(A_TOKEN, A_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 try:
-    for tweet in tweepy.Cursor(api.search, q="trump tweets", lang="en", tweet_mode="extended").items(1):
-    	json.dumps(tweet)
+    for tweet in tweepy.Cursor(api.search, q="trump tweets", lang="en").items(1):
+        print(tweet.text)
     	#print(json.dumps(tweet, sort_keys=True))
     	#if not tweet.retweeted:
             #print(tweet.full_text)
